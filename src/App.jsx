@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [number, setnumber] = useState(0)
+  const [number, setnumber] = useState(9)
 
   const increment=()=>{
     setnumber(number+1)
